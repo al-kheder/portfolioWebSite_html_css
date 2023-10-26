@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Al-kheder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Ali</a>
+      <nav class="navigation">
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="main">
+      <div>
+        <h2>Hello, I'Ali <br /><span>Software developer </span></h2>
+        <h3>
+          Crafting code to turn ideas into functional, innovative solutions
+        </h3>
+        <a href="#projects" class="main-btn">View my work</a>
+        <button
+        class="btn-cv main-btn"
+        onclick="window.open('./assets/cvseptember23.pdf')"
+        >
+        Download CV
+      </button>
+        <div class="social-icon">
+          <a href="https://www.linkedin.com/in/ali-al-kheder-8225b9159"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/al-kheder"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:alkhdyyr@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="cards" id="services">
+      <h2 class="title">Services</h2>
+      <div class="content">
+        <div class="card">
+          <div class="icon"><i class="fab fa-figma"></i></div>
+          <div class="info">
+            <h3>Design</h3>
+            <p>
+              Architecting the structure and user interfaces of software
+              applications for optimal user experience.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fas fa-edit"></i></div>
+          <div class="info">
+            <h3>Script writing</h3>
+            <p>Turning concepts into digital reality</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fas fa-rocket"></i></div>
+          <div class="info">
+            <h3>Entrepreneurship</h3>
+            <p>
+              Building and launching their own software startups or products.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2 class="title">Projects</h2>
+      <div class="content">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/weatherapp.png" alt="" />
+          </div>
+          <div class="project-info">
+            <p class="project-category">"An interactive JavaScript weather app providing real-time forecasts at your fingertips."</p>
+            <strong class="project-title">
+              <span>Weather App</span>
+              <a href="https://github.com/al-kheder/weatherAppJs" class="more-details">More details</a>
+            </strong>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="assets/todoapp.png" alt="" />
+          </div>
+          <div class="project-info">
+            <p class="project-category">"A simple and efficient JavaScript to-do list app for organizing tasks effortlessly."</p>
+            <strong class="project-title">
+              <span>TODO List </span>
+              <a href="https://github.com/al-kheder/todolist2" class="more-details">More details</a>
+            </strong>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="wrapper">
+            <svg>
+              <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                 more projects coming soon!
+              </text>
+            </svg>
+          </div>
+         
+        </div>
+      </div> 
+    </section>
+    <!-- Let's work together -->
+    <section class="cards contact" id="contact">
+      <h2 class="title">Let's work together</h2>
+      <div class="content">
+        <div class="card">
+          <div class="icon"><i class="fas fa-phone"></i></div>
+          <div class="info">
+            <h3>Phone</h3>
+            <a href="tel:+4915901184486">+4915901184486</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="far fa-envelope"></i></div>
+          <div class="info">
+            <h3>Email</h3>
+            <a href="mailto:alkhdyyr@gmail.com">alkhdyyr@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer-title">Copyrights @ <span>Ali Al-kheder</span></p>
+      <div class="social-icon">
+        <a href="https://www.linkedin.com/in/ali-al-kheder-8225b9159"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/al-kheder"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:alkhdyyr@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
